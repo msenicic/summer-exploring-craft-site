@@ -1,0 +1,19 @@
+columnSuffix: swbsnuys
+contentColumnType: text
+fieldGroup: b9f3295d-0343-46eb-83ed-b4adc72c4de1 # Home Page
+handle: content7Text
+instructions: ''
+name: Content-7-Text
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

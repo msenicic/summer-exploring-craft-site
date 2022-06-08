@@ -1,0 +1,28 @@
+fieldLayouts:
+  c9e7bdde-60f1-4754-8e1e-538509a0e3ed:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 7a06cde8-fa10-4725-b59a-e2e711fd65cd # Header Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 3a974478-d382-4475-9136-d00761e26bb4 # Nav Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+        name: Links
+        sortOrder: 1
+handle: header
+name: Header
+sortOrder: 1

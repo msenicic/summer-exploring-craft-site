@@ -1,0 +1,35 @@
+{% set Box3 = entry.content3Box.all() %}
+{% set Box3_1 = entry.content3Box2.all() %}
+
+<div class="content-3">
+	<div class="container">
+		{% if Box3 %}
+			{% for box in Box3 %}
+				<div class=" section section-1">
+					<img src="{{box.boxImage.one().url}}" alt="">
+					<div class="text">
+						<h1>{{ box.boxTitle }}</h1>
+						<p>{{ box.boxText }}</p>
+						<div class="button">
+							<a href="#">Read more</a>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		{% endif %}
+		{% if Box3_1 %}
+			{% for box in Box3_1 %}
+				<div class="section section-2">
+					<div class="text">
+						<h1>{{ box.boxTitle }}</h1>
+						<p>{{ box.boxText }}</p>
+						<div class="button">
+							<a href="#">Read more</a>
+						</div>
+					</div>
+					<img src="{{box.boxImage.one().url}}" alt="">
+				</div>
+			{% endfor %}
+		{% endif %}
+	</div>
+</div>

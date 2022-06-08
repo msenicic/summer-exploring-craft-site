@@ -1,0 +1,114 @@
+field: e19d4d40-639f-4aed-a8fd-a99515ef7993 # Content-3-Box2
+fieldLayouts:
+  2875eeb1-0b55-49cc-ba4d-e0fbb580abe9:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 917013f4-4f08-4f41-af07-6b8daee940e3 # Box Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c09b8ada-8f68-4a04-9ea8-ec8df6b5c9b1 # Box Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: bbf3a8d2-6e94-423c-bdca-c57767d8c30a # Box Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  917013f4-4f08-4f41-af07-6b8daee940e3: # Box Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: boxImage
+    instructions: ''
+    name: 'Box Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:a40cdca2-fefe-4833-8ee1-5c696c14a965' # Uploads
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:a40cdca2-fefe-4833-8ee1-5c696c14a965' # Uploads
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:a40cdca2-fefe-4833-8ee1-5c696c14a965' # Uploads
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  bbf3a8d2-6e94-423c-bdca-c57767d8c30a: # Box Text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: boxText
+    instructions: ''
+    name: 'Box Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c09b8ada-8f68-4a04-9ea8-ec8df6b5c9b1: # Box Title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: boxTitle
+    instructions: ''
+    name: 'Box Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: box
+name: Box
+sortOrder: 1

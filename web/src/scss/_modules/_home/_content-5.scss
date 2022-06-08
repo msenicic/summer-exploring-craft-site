@@ -1,0 +1,50 @@
+.content-5  {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 150px 40px;
+    @media only screen and (min-width: 768px) {
+        padding: 250px 60px;
+    }
+
+    img {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        max-height: 150px;
+    }
+
+    .shape1 {
+        top: 0;
+        transform: translate(0, -50%);
+        z-index: 3;
+    }
+
+    .shape2 {
+        bottom: 0;
+        transform: translate(0, 50%);
+    }
+
+    .text {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        text-shadow: 5px 5px 5px grey;
+        font-style: italic;
+        @media only screen and (min-width: 768px) {
+            text-align: right;
+        }
+
+        p {
+            color: #deb37e; 
+            display: flex;
+            flex-direction: column;
+
+            span {
+                color: #54524f;
+            }
+        }
+    }
+}

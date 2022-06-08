@@ -1,0 +1,27 @@
+{% set links = header.navLinks.all() %}
+{% set logo = header.headerLogo.one() %}
+<header>
+	<div class="container">
+		<div class="logo">
+			<a href="{{siteUrl}}"><img src="{{logo.url}}" alt="logo"></a>
+			<i class="fas fa-bars"></i>
+		</div>
+		<div class="menu">
+			<ul>
+				{% if links %}
+					{% for links in links %}
+						{% set activeLink = craft.app.request.segments|first == links.linkDestination.one().uri %}
+						<li class="{% if activeLink %}li-active{% endif %}">
+							<a href="{{ links.linkDestination.one().url }}">{{ links.linkText }}</a>
+						</li>
+					{% endfor %}
+				{% endif %}
+			</ul>
+			<form class="input" action="{{ url('results') }}">
+				<input type="search" name="q" aria-label="Search" placeholder="Search">
+				<button type="submit">Go</button>
+			</form>
+			<!--<img src="{{siteUrl}}/Design/Search.png" alt="">-->
+		</div>
+	</div>
+</header>

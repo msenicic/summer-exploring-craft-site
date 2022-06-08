@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: menu
+name: Menu
+propagationMethod: all
+siteSettings:
+  3265eae9-6ce5-4cbb-99e3-bf637409fb48: # Slama
+    enabledByDefault: true
+    hasUrls: true
+    template: page\menu\index
+    uriFormat: menu
+type: single

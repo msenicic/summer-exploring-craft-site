@@ -1,0 +1,34 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 7cfc6a92-9a09-44e3-95e4-abf5ba7b040b # Header
+handle: headerLogo
+instructions: ''
+name: 'Header Logo'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:a40cdca2-fefe-4833-8ee1-5c696c14a965' # Uploads
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: '1'
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:a40cdca2-fefe-4833-8ee1-5c696c14a965' # Uploads
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:a40cdca2-fefe-4833-8ee1-5c696c14a965' # Uploads
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

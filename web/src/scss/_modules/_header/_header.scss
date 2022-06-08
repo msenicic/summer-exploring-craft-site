@@ -1,0 +1,135 @@
+header {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    @media only screen and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      transition: 1s;
+      height: 0;
+      @media only screen and (min-width: 768px) {
+        flex-direction: row;
+        height: auto;
+        overflow: visible;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        @media only screen and (min-width: 768px) {
+          flex-direction: row;
+          justify-content: space-around;
+        }
+
+        li {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          transition: 1s;
+          @media only screen and (min-width: 768px) {
+            width: auto;
+            border-radius: 20px;
+          }
+
+          a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 900;
+            color: #54524f;
+            text-align: center;
+            padding: 10px;
+          }
+        }
+
+        .li-active {
+          background-color: #54524f;
+
+          a {
+            color: #fff;
+          }
+        }
+
+        li:hover {
+          background-color: #54524f;
+
+          a {
+            color: #fff;
+          }
+        }
+      }
+
+      .input {
+        margin: 10px;
+        padding: 10px;
+        background-color: #c3bfbc;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        @media only screen and (min-width: 768px) {
+          max-width: 25%;
+        }
+
+        input {
+          width: 100%;
+          background-color: transparent;
+          border: none;
+          outline: none;
+          color: #54524f;
+          font-weight: 700;
+          font-size: 14px;
+          padding: 0px 10px;
+        }
+
+        img {
+          width: 20px;
+        }
+      }
+    }
+
+    .active {
+      height: 207px;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 30px;
+
+      img {
+        width: 70px;
+      }
+
+      i {
+        font-weight: 900;
+        font-size: 25px;
+        color: #54524f;
+        @media only screen and (min-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+}

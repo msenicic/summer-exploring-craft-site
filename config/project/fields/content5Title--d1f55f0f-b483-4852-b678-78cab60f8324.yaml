@@ -1,0 +1,16 @@
+columnSuffix: riyqowwf
+contentColumnType: string
+fieldGroup: b9f3295d-0343-46eb-83ed-b4adc72c4de1 # Home Page
+handle: content5Title
+instructions: ''
+name: Content-5-Title
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_content5title}}'
+  maxBlocks: '1'
+  minBlocks: '1'
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

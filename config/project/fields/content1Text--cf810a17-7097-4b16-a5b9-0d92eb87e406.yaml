@@ -1,0 +1,19 @@
+columnSuffix: laukhwwq
+contentColumnType: text
+fieldGroup: b9f3295d-0343-46eb-83ed-b4adc72c4de1 # Home Page
+handle: content1Text
+instructions: ''
+name: Content-1-Text
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '3'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

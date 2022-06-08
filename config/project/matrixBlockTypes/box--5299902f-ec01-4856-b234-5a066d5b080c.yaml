@@ -1,0 +1,114 @@
+field: d9ef3a66-2503-445c-8410-8b850fb99558 # Content-2-Box
+fieldLayouts:
+  8c3bfcfb-7da9-4dbd-9233-1ec2b45ae2cc:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 0065adf2-ed03-4975-8ef5-c92721799007 # Box Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3a292aab-2a72-4fb0-a30c-4d010d65dc21 # Box Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7f67d425-ff72-4ded-a3d5-beadaf208e4e # Box Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  3a292aab-2a72-4fb0-a30c-4d010d65dc21: # Box Title
+    columnSuffix: wxkmkdbo
+    contentColumnType: text
+    fieldGroup: null
+    handle: boxTitle
+    instructions: ''
+    name: 'Box Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  7f67d425-ff72-4ded-a3d5-beadaf208e4e: # Box Text
+    columnSuffix: zzxxujml
+    contentColumnType: text
+    fieldGroup: null
+    handle: boxText
+    instructions: ''
+    name: 'Box Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  0065adf2-ed03-4975-8ef5-c92721799007: # Box Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: boxImage
+    instructions: ''
+    name: 'Box Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:a40cdca2-fefe-4833-8ee1-5c696c14a965' # Uploads
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:a40cdca2-fefe-4833-8ee1-5c696c14a965' # Uploads
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:a40cdca2-fefe-4833-8ee1-5c696c14a965' # Uploads
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: box
+name: Box
+sortOrder: 1

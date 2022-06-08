@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b9f3295d-0343-46eb-83ed-b4adc72c4de1 # Home Page
+handle: content3Box2
+instructions: ''
+name: Content-3-Box2
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_content3box2}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

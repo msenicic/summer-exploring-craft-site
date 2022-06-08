@@ -1,0 +1,86 @@
+field: 9691625f-58d3-4ee8-8a7f-e5d145d5afc9 # Footer List
+fieldLayouts:
+  f92d618f-6821-4e89-bbd6-7b9431112f17:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 0ed9e7c0-06be-454b-b2cc-299541be0bd5 # List Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5afa782c-e418-475e-829d-751427b342b2 # List Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0ed9e7c0-06be-454b-b2cc-299541be0bd5: # List Title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: listTitle
+    instructions: ''
+    name: 'List Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  5afa782c-e418-475e-829d-751427b342b2: # List Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: listLink
+    instructions: ''
+    name: 'List Link'
+    searchable: false
+    settings:
+      columns:
+        __assoc__:
+          -
+            - a99877c8-bafb-409c-9638-e9517b1788bd # Link Text
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 9bfd31ff-4b50-43bb-8c79-d011766766dc # Link Destination
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_7_listlink}}'
+      fieldLayout: matrix
+      maxRows: ''
+      minRows: ''
+      placeholderKey: null
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: list
+name: Lists
+sortOrder: 1

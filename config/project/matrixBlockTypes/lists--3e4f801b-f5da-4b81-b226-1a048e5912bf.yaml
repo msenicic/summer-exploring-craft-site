@@ -1,0 +1,70 @@
+field: dc2fafe9-ced6-430c-9eda-38d7df4648a1 # Content-6-List
+fieldLayouts:
+  e81dd254-99e6-43f4-a324-0ecf019429a1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: fdb9b370-27de-4deb-adc1-a5db4a80e344 # List Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 15366c25-fd72-4d0a-ae50-828235695859 # List Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  15366c25-fd72-4d0a-ae50-828235695859: # List Text
+    columnSuffix: nprpyold
+    contentColumnType: text
+    fieldGroup: null
+    handle: listText
+    instructions: ''
+    name: 'List Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  fdb9b370-27de-4deb-adc1-a5db4a80e344: # List Title
+    columnSuffix: ccvtsssq
+    contentColumnType: text
+    fieldGroup: null
+    handle: listTitle
+    instructions: ''
+    name: 'List Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: lists
+name: Lists
+sortOrder: 1

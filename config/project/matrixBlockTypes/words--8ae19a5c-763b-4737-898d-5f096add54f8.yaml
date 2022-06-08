@@ -1,0 +1,70 @@
+field: d1f55f0f-b483-4852-b678-78cab60f8324 # Content-5-Title
+fieldLayouts:
+  29937cdc-917c-4809-8771-2bdc63550217:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: afebc7fc-aef7-420e-8c6c-920b65afbbce # First Word
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 88099a61-49ec-4d99-93ab-5a2fae1bcd04 # Words
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  88099a61-49ec-4d99-93ab-5a2fae1bcd04: # Words
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: words
+    instructions: ''
+    name: Words
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  afebc7fc-aef7-420e-8c6c-920b65afbbce: # First Word
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: firstWord
+    instructions: ''
+    name: 'First Word'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: words
+name: Words
+sortOrder: 1

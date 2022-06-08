@@ -1,0 +1,15 @@
+{% set Title4 = entry.content4Title %}
+{% set Text4  = entry.content4Text %}
+
+<div class="content-4">
+	<img class="shape1" src="{{siteUrl}}/Design/content-4-shape1.png" alt="">
+	<div class="text">
+		<img class="shadow" src="{{siteUrl}}/Design/content-4-shadow.png" alt="">
+		{% if Title4 %}
+			<h1>{{ Title4 }}</h1>
+		{% endif %}
+		{% if Text4 %}
+			<p>{{ Text4 }}</p>
+		{% endif %}
+	</div>
+</div>

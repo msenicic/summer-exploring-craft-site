@@ -1,0 +1,37 @@
+fieldLayouts:
+  927b24fb-2b28-4dd4-aeee-db5758581126:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 20620fc5-2a9d-4fee-b325-c2689acfc840 # Footer Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f35076ee-9640-4b34-afd4-39c772bbe11f # Footer Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9691625f-58d3-4ee8-8a7f-e5d145d5afc9 # Footer List
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Footer
+        sortOrder: 1
+handle: footer
+name: Footer
+sortOrder: 2

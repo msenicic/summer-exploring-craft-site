@@ -1,0 +1,38 @@
+fieldLayouts:
+  1aeb453e-43b6-4b0f-bcb0-f723bddc38bf:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: contactUs
+hasTitleField: false
+name: 'Contact Us'
+section: 9f708e8a-f6aa-4944-8ccb-0545c6aae787 # Contact Us
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

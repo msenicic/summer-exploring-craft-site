@@ -1,0 +1,16 @@
+{% set Title5 = entry.content5Title.all() %}
+{% set Image5 = entry.content5Image.one() %}
+
+<div class="content-5" {% if Image5 %} style="background-image: url({{ Image5.url }});" {% endif %}>
+	<img class="shape1" src="{{siteUrl}}/Design/content-5-shape1.png" alt="">
+	<div class="text">
+		{% if Title5 %}
+			{% for words in Title5 %}
+				<p>{{ words.firstWord }}
+					<span>{{ words.words }}</span>
+				</p>
+			{% endfor %}
+		{% endif %}
+	</div>
+	<img class="shape2" src="{{siteUrl}}/Design/content-5-shape2.png" alt="">
+</div>

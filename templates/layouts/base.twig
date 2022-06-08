@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/8a391c339d.js" crossorigin="anonymous"></script>
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="{{siteUrl}}/style.css">
+	</head>
+
+	<body>
+		<div class="global">
+			<div class="header">{% include 'layouts/header' %}</div>
+
+			<div class="content"> {% block content %}{% endblock %}
+				</div>
+
+				<div class="footer">{% include 'layouts/footer' %}</div>
+			</div>
+		</body>
+
+		<script src="{{ siteUrl }}/script.js"></script>
+
+	</html>

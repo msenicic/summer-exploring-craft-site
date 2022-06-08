@@ -1,0 +1,98 @@
+dateModified: 1640625459
+email:
+  fromEmail: markomare.senicic@gmail.com
+  fromName: Slama
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0e641c88-8f50-487a-9c2b-fc68b66f0063: Results # Results
+    0ed9e7c0-06be-454b-b2cc-299541be0bd5: 'List Title' # List Title
+    3a292aab-2a72-4fb0-a30c-4d010d65dc21: 'Box Title' # Box Title
+    3a974478-d382-4475-9136-d00761e26bb4: 'Nav Links' # Nav Links
+    3e2b35ac-13b4-4410-99f5-f8d92165f86c: Menu # Menu
+    3e4f801b-f5da-4b81-b226-1a048e5912bf: Lists # Lists
+    4ab24fc4-f56d-459a-9d6c-4e0306418bca: 'Box Text' # Box Text
+    5afa782c-e418-475e-829d-751427b342b2: 'List Link' # List Link
+    5c8401ef-653d-41ad-a84d-bfcd65b8d598: 'Link Destination' # Link Destination
+    7a06cde8-fa10-4725-b59a-e2e711fd65cd: 'Header Logo' # Header Logo
+    7cfc6a92-9a09-44e3-95e4-abf5ba7b040b: Header # Header
+    7daf7d36-5eb3-4b90-9f0b-27f682e42d3a: 'Box Image' # Box Image
+    7f67d425-ff72-4ded-a3d5-beadaf208e4e: 'Box Text' # Box Text
+    8ae19a5c-763b-4737-898d-5f096add54f8: Words # Words
+    9bfd31ff-4b50-43bb-8c79-d011766766dc: 'Link Destination' # Link Destination
+    9f708e8a-f6aa-4944-8ccb-0545c6aae787: 'Contact Us' # Contact Us
+    47ee6a19-3fc8-4336-9185-fdcf3bb83ed7: Content-2-Text # Content-2-Text
+    54c5226d-70a1-4659-b048-ece36468d891: Box # Box
+    0065adf2-ed03-4975-8ef5-c92721799007: 'Box Image' # Box Image
+    70ed45dc-c1f9-4b56-8b43-deec3713ad52: Content-4-Title # Content-4-Title
+    73eb255f-d54a-481a-a856-dc660a355d55: Menu # Menu
+    83b9dabd-2b8e-46da-8374-678981f235d1: Content-2-Title # Content-2-Title
+    86aa3827-820c-4091-9fc9-6b21d1bd96ea: 'Our Story' # Our Story
+    97e8abeb-8bfd-4e0e-9ffa-815dfe2f5f02: Common # Common
+    203dca1b-f61f-47ff-840a-dacc6b6f1512: Content-7-Title # Content-7-Title
+    251fe721-bfd7-4a6e-bd65-f1ed9914ee51: Content-1-Image # Content-1-Image
+    253c4563-82aa-4973-84ec-cf4828ff3878: 'Link Destination' # Link Destination
+    0794b0f5-cffb-4126-be9c-b5913a611820: Box # Box
+    3265eae9-6ce5-4cbb-99e3-bf637409fb48: Slama # Slama
+    9354a23c-66f0-4f40-b036-2677fe88dab9: Home # Home
+    15366c25-fd72-4d0a-ae50-828235695859: 'List Text' # List Text
+    20620fc5-2a9d-4fee-b325-c2689acfc840: 'Footer Title' # Footer Title
+    22698fc0-ac1c-4a56-a08f-7a3d8cc5b305: Content-1-Title # Content-1-Title
+    88099a61-49ec-4d99-93ab-5a2fae1bcd04: Words # Words
+    91320a6a-e9f4-4d50-ac38-ed5eb3fb9d0d: Lists # Lists
+    0212869c-c590-418e-99e5-8a35d162050c: Content-5-Image # Content-5-Image
+    874208a8-1f8f-497e-b520-56488eeb2b47: 'Text Destination' # Text Destination
+    917013f4-4f08-4f41-af07-6b8daee940e3: 'Box Image' # Box Image
+    5299902f-ec01-4856-b234-5a066d5b080c: Box # Box
+    9691625f-58d3-4ee8-8a7f-e5d145d5afc9: 'Footer List' # Footer List
+    23652548-6c17-4192-b763-d7153004a85c: Content-7-Text # Content-7-Text
+    51215431-3032-4047-8611-3251d1b5c9a1: Header # Header
+    a7b22b94-b241-498a-a72d-7155f35d9558: Content-1-Subtitle # Content-1-Subtitle
+    a40cdca2-fefe-4833-8ee1-5c696c14a965: Uploads # Uploads
+    a77175ca-3a22-43e6-b235-7ced2a7c957b: Home # Home
+    a99877c8-bafb-409c-9638-e9517b1788bd: 'Link Text' # Link Text
+    ad263c6c-3ad1-4a71-9d9a-220317eec816: Footer # Footer
+    afebc7fc-aef7-420e-8c6c-920b65afbbce: 'First Word' # First Word
+    b9f3295d-0343-46eb-83ed-b4adc72c4de1: 'Home Page' # Home Page
+    b997ed51-6fa1-402f-8da1-8dfb2fcd2a2a: Footer # Footer
+    bbf3a8d2-6e94-423c-bdca-c57767d8c30a: 'Box Text' # Box Text
+    c0daab05-37ed-40a4-9fa7-057f73836aae: 'Our Story' # Our Story
+    c09b8ada-8f68-4a04-9ea8-ec8df6b5c9b1: 'Box Title' # Box Title
+    cc0612c3-03d8-43de-93b9-93dd36d150e2: Content-3-Box # Content-3-Box
+    cf810a17-7097-4b16-a5b9-0d92eb87e406: Content-1-Text # Content-1-Text
+    d1f55f0f-b483-4852-b678-78cab60f8324: Content-5-Title # Content-5-Title
+    d4b43518-8620-4bdb-9e38-789fefb58529: 'Contact Us' # Contact Us
+    d9ef3a66-2503-445c-8410-8b850fb99558: Content-2-Box # Content-2-Box
+    d64142fb-d801-43f3-be1c-5649f49eb186: Content-6-Subtitle # Content-6-Subtitle
+    dc2fafe9-ced6-430c-9eda-38d7df4648a1: Content-6-List # Content-6-List
+    dc749d37-bc7b-4102-ac74-b11f3b7e4ade: 'Box Title' # Box Title
+    e02feff2-1e49-432f-aa86-885ed483cd51: Links # Links
+    e5f73f99-5f5c-4835-8928-76fc0734f6a0: Content-4-Text # Content-4-Text
+    e9df6a25-2209-4859-88cc-784f8e14abeb: Results # Results
+    e19d4d40-639f-4aed-a8fd-a99515ef7993: Content-3-Box2 # Content-3-Box2
+    e836c106-b563-468c-adc8-065c10e4ade5: Content-6-Text # Content-6-Text
+    ea642d40-4283-48f1-a381-b6a4a1455086: Slama # Slama
+    edcab317-066b-496a-9852-3c3eaad30ce6: 'Link Text' # Link Text
+    f35076ee-9640-4b34-afd4-39c772bbe11f: 'Footer Text' # Footer Text
+    fdb9b370-27de-4deb-adc1-a5db4a80e344: 'List Title' # List Title
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+system:
+  edition: solo
+  live: true
+  name: Slama
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

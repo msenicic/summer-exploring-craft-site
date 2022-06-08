@@ -1,0 +1,33 @@
+{% set Title2 = entry.content2Title %}
+{% set Text2  = entry.content2Text %}
+{% set Box2   = entry.content2Box.all() %}
+
+<div class="content-2">
+	<img class="shadow" src="{{siteUrl}}/Design/content-2-shadow.png" alt="image">
+	<div class="container">
+		<div class="title">
+			{% if Title2 %}
+				<h1>{{ Title2 }}</h1>
+			{% endif %}
+			{% if Text2 %}
+				<p>{{ Text2 }}</p>
+			{% endif %}
+		</div>
+		<div class="boxs">
+			{% if Box2 %}
+				{% for box in Box2 %}
+					<div class="box">
+						<div class="image"><img src="{{box.boxImage.one().url}}" alt="image"></div>
+						<div class="text">
+							<h3>{{ box.boxTitle }}</h3>
+							<p>{{ box.boxText }}</p>
+						</div>
+					</div>
+				{% endfor %}
+			{% endif %}
+		</div>
+		<div class="button">
+			<a href="#">Show more</a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,59 @@
+.content-4 {
+    background-color: #99928d;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 200px 40px;
+    overflow: hidden;
+
+    .text {
+        max-width: 600px;
+        margin: auto;
+        
+        img {
+            display: none;
+            @media only screen and (min-width: 768px)
+            {
+                display: block;
+                position: absolute;
+                width: 40%;
+                height: auto;
+                top: 50%;
+                transform: translate(0,-50%);
+                z-index: 0;
+            }    
+        }
+
+        p {
+            color: #dbdbdb;
+            @media only screen and (min-width: 768px)
+            {
+                font-size: 18px;
+            } 
+        }
+    }
+
+    img {
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        letter-spacing: 3px;
+        @media only screen and (min-width: 768px) {
+            font-size: 40px;
+        }
+    }
+
+    .shape1 {
+        top: 0;
+        z-index: 2;
+        @media only screen and (min-width: 768px)
+        {
+            max-height: 150px;
+            top: -50px;
+        } 
+    }
+}

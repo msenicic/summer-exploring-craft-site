@@ -1,0 +1,19 @@
+columnSuffix: wbltiugd
+contentColumnType: text
+fieldGroup: b997ed51-6fa1-402f-8da1-8dfb2fcd2a2a # Footer
+handle: footerText
+instructions: ''
+name: 'Footer Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

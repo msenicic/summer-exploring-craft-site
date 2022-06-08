@@ -1,0 +1,27 @@
+{% set Title1    = entry.content1Title %}
+{% set SubTitle1 = entry.content1Subtitle %}
+{% set Text1     = entry.content1Text %}
+{% set Image1    = entry.content1Image.one() %}
+
+<div class="content-1" {% if Image1 %} style="background-image: url({{ Image1.url }});" {% endif %}>
+	<img class="shape1" src="{{siteUrl}}Design/header-shape.png" alt="">
+	<div class="container">
+		<div class="title">
+			{% if Title1 %}
+				<h1>{{ Title1 }}</h1>
+			{% endif %}
+			{% if SubTitle1 %}
+				<h4>{{ SubTitle1 }}</h4>
+			{% endif %}
+		</div>
+		<div class="button">
+			<a href="#">read more</a>
+		</div>
+		<div class="text">
+			{% if Text1 %}
+				<p>{{ Text1 }}</p>
+			{% endif %}
+		</div>
+	</div>
+	<img class="shape2" src="{{siteUrl}}Design/header2-shape.png" alt="">
+</div>

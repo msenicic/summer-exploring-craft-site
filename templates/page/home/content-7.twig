@@ -1,0 +1,19 @@
+{% set Text7  = entry.content7Text %}
+{% set Title7 = entry.content7Title %}
+
+<div class="content-7">
+	<img class="shape1" src="{{siteUrl}}/Design/content-7-shape1.png" alt="">
+	<div class="container">
+		{% if Title7 %}
+			<p>{{ Title7 }}</p>
+		{% endif %}
+		{% if Text7 %}
+			<p>{{ Text7 }}</p>
+		{% endif %}
+		<div class="input">
+			<input type="email" name="" id="" placeholder="Your Email">
+			<button>Subscribe</button>
+		</div>
+	</div>
+	<img class="shape2" src="{{siteUrl}}/Design/content-7-shape2.png" alt="">
+</div>

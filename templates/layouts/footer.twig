@@ -1,0 +1,46 @@
+{% set textf = footer.footerText %}
+{% set titlef = footer.footerTitle %}
+{% set listf = footer.footerList.all() %}
+
+
+<footer>
+	<div class="container">
+		<div class="title-here">
+			{% if titlef %}
+				<h3>{{ titlef }}</h3>
+			{% endif %}
+			{% if textf %}
+				<p>{{ textf }}</p>
+			{% endif %}
+			<div class="icons">
+				<div class="icon">
+					<a href="#"><img src="{{siteUrl}}/Design/Instagram.png" alt="instagram"></a>
+				</div>
+				<div class="icon">
+					<a href="#"><img src="{{siteUrl}}/Design/Facebook.png" alt="facebook"></a>
+				</div>
+				<div class="icon">
+					<a href="#"><img src="{{siteUrl}}/Design/Twitter.png" alt="twitter"></a>
+				</div>
+				<div class="icon">
+					<a href="#"><img src="{{siteUrl}}/Design/Whatsapp.png" alt="whatsapp"></a>
+				</div>
+			</div>
+		</div>
+		<div class="list">
+			{% if listf %}
+				{% for list in listf %}
+					<div class="row">
+						<h3>{{ list.listTitle }}</h3>
+						{% set superTable = list.listLink.all() %}
+						{% for listLink in superTable %}
+							<ul>
+								<li><a href=" {{listLink.linkDestination.one().url}}">{{ listLink.linkText }}</a></li>
+							</ul>
+						{% endfor %}
+					</div>
+				{% endfor %}
+			{% endif %}
+		</div>
+	</div>
+</footer>

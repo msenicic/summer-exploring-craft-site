@@ -1,0 +1,27 @@
+{% set Text6     = entry.content6Text %}
+{% set Subtitle6 = entry.content6Subtitle %}
+{% set List6     = entry.content6List.all() %}
+
+<div class="content-6">
+	<img src="{{siteUrl}}/Design/content-6-shadow.png" alt="">
+	<div class="container">
+		<div class="list">
+			{% if List6 %}
+				{% for lists in List6 %}
+					<div class="box">
+						<p>{{ lists.listTitle }}</p>
+						<p>{{ lists.listText }}</p>
+					</div>
+				{% endfor %}
+			{% endif %}
+		</div>
+		<div class="text">
+			{% if Text6 %}
+				<p>{{ Text6 }}</p>
+			{% endif %}
+			{% if Subtitle6 %}
+				<p>{{ Subtitle6 }}</p>
+			{% endif %}
+		</div>
+	</div>
+</div>
